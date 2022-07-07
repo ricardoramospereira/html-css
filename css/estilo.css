@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+	list-style: none;
+}
+
+#conteaner {
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1200px;
+	background: url(../img/container.png);
+}
+
+/*
+**************** TOPO *****************
+*/
+
+#topo {
+	position: relative;
+	height: 280px;
+	height: 15.4em;
+	min-height: 250px;
+	background: url(../img/bg-container.png);
+}
+
+#topo-principal {
+	width: 100%;
+	height: 280px;
+	background: url(../img/topo-imagem-principal2.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+#topo-lateral {
+	width: 450px;
+	height: 280px;
+	background: url(../img/topo-imagem-lateral.png) no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+
+#topo-principal h2 {
+	position: absolute;
+	z-index: 3;
+	width: 450px;
+	height: 250px;
+	background: url(../img/logo.png) no-repeat;
+}
+
+.logo a {
+	margin-left: -9000px;
+}
+
+#topo-lateral {
+	
+}
+
+#area-menu {
+	border-bottom: 1px solid #b5ab56;
+	border-top: 1px solid #b5ab56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #8b8448;
+
+}
+
+#area-menu .locais {
+	float: left;
+}
+
+a.reserva {
+	margin-left: 57px;
+	text-transform: uppercase;
+	background: #8b8448;
+	color: #fff5b0;
+	padding: 5px 10px;
+	text-decoration: none;
+
+}
+
+#area-menu a:hover {
+	color: white;
+}
+
+#menu-depoimento ul{
+	margin-top: 10px;
+	margin-left: 80px;
+	float: left;
+}
+
+#menu-depoimento a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	color: #8b8448;
+}
+
+#menu-depoimento a:hover {
+	color: white;
+}
+
+#menu-depoimento img {
+	float: right;
+	margin-top: 10px;
+}
+
+/*
+**************** CONTEÚDO *****************
+*/
+
+#area-conteudo {
+	width: 100%;
+	margin: 5px;
+	background: url(../img/container.png);
+}
+
+#conteudo-principal {
+	width: 45%;
+	margin-top: 10px;
+	background: url(../img/bg-area-principal.png) repeat-x right top;
+	margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+}
+
+#conteudo-lateral {
+	width: 45%;
+	margin-top: 20px;
+	float: right;
+	background: url(../img/bg.png);
+	
+}
+
+#beneficios li {
+	margin-top: 20px;
+	float: left;
+}
+
+ #beneficios li img {
+ 	float: left;
+
+ }
+
+
+#beneficios h4 {
+	float: left;
+}
+
+
+
+
+/*
+*************** RODAPÉ **********************
+*/
+
+#rodape {
+	background: #fff5b0;
+	clear: both;
+	padding: 5px;
+}
